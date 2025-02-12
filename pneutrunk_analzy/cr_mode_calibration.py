@@ -10,7 +10,7 @@ area_small = 0.08   # Cross-sectional area of smaller bellows (m^2)
 # Define correction factors based on module position
 def get_correction_factors(module_index):
     if module_index < 2:  # First two modules have larger bellows
-        return area_large, area_small, area_small
+        return area_large, area_large, area_large
     else:  # Remaining modules have smaller bellows
         return area_small, area_small, area_small
 
