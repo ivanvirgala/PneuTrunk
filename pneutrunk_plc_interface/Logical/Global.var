@@ -1,0 +1,6 @@
+VAR
+	packetPos : packetUDP;
+	packet485 : packetRS485;
+	modul : moduly;
+	buttons : tlacidla;
+END_VAR

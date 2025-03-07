@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/dvframe/dvframe.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Source/RS485/Sender/Sender.var
+$(AS_PROJECT_PATH)/Logical/Source/RS485/Sender/Sender.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/dvframe/dvframe.typ

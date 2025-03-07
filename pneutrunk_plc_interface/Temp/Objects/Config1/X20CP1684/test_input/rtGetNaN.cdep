@@ -1,0 +1,12 @@
+$(AS_CPU_PATH)/test_input/rtgetnan.c.o:
+$(AS_PROJECT_PATH)/logical/test_input/rtgetnan.c
+$(AS_PROJECT_PATH)/logical/test_input/rtwtypes.h
+$(AS_PROJECT_PATH)/logical/matlab_includes/r2023a/tmwtypes.h
+$(AS_GNU_INST_PATH)/4.9/lib/gcc/i386-elf/4.1.2/include/limits.h
+$(AS_GNU_INST_PATH)/4.9/lib/gcc/i386-elf/4.1.2/include/syslimits.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/limits.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/newlib.h
+$(AS_GNU_INST_PATH)/4.9/lib/gcc/i386-elf/4.1.2/include/float.h
+$(AS_GNU_INST_PATH)/4.9/lib/gcc/i386-elf/4.1.2/include/stddef.h
+$(AS_PROJECT_PATH)/logical/test_input/rtgetnan.h
+$(AS_PROJECT_PATH)/logical/test_input/rt_nonfinite.h

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="Client"
+      Disable="false"
+      Source="Source.UDP.Client"
+      Language="IEC">
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Client\Client.st.var" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Client\Client.typ" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Client\Client.var" />
+    </Task>
+    <Task
+      Name="Narazy"
+      Disable="true"
+      Source="Source.Narazy"
+      Language="IEC">
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Narazy\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Narazy\Init.st.var" />
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Narazy\Exit.st.var" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Narazy\Types.typ" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Narazy\Variables.var" />
+    </Task>
+    <Task
+      Name="Server"
+      Disable="false"
+      Source="Source.UDP.Server"
+      Language="IEC">
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Server\Server.st.var" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Server\Server.typ" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Server\Server.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="Receiver1"
+      Disable="false"
+      Source="Source.RS485.Receiver"
+      Language="IEC">
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Receiver1\ReceiverCyclic.st.var" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Receiver\Receiver.typ" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Receiver\Receiver.var" />
+    </Task>
+    <Task
+      Name="Sender1"
+      Disable="false"
+      Source="Source.RS485.Sender"
+      Language="IEC">
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Sender1\SenderCyclic.st.var" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Sender\Sender.typ" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Sender\Sender.var" />
+    </Task>
+    <Task
+      Name="Sensors"
+      Disable="false"
+      Source="Source.Sensors"
+      Language="IEC">
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Sensors\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Sensors\Init.st.var" />
+      <InternalFile
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Temp\Objects\Config1\X20CP1684\Sensors\Exit.st.var" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Sensors\Types.typ" />
+      <File
+        Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Sensors\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

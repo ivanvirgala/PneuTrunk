@@ -1,0 +1,12 @@
+$(AS_CPU_PATH)/solo_reg/rtgetinf.c.o:
+$(AS_PROJECT_PATH)/logical/solo_reg/rtgetinf.c
+$(AS_PROJECT_PATH)/logical/solo_reg/rtwtypes.h
+$(AS_PROJECT_PATH)/logical/matlab_includes/r2023a/tmwtypes.h
+$(AS_GNU_INST_PATH)/4.9/lib/gcc/i386-elf/4.1.2/include/limits.h
+$(AS_GNU_INST_PATH)/4.9/lib/gcc/i386-elf/4.1.2/include/syslimits.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/limits.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/newlib.h
+$(AS_GNU_INST_PATH)/4.9/lib/gcc/i386-elf/4.1.2/include/float.h
+$(AS_GNU_INST_PATH)/4.9/lib/gcc/i386-elf/4.1.2/include/stddef.h
+$(AS_PROJECT_PATH)/logical/solo_reg/rtgetinf.h
+$(AS_PROJECT_PATH)/logical/solo_reg/rt_nonfinite.h

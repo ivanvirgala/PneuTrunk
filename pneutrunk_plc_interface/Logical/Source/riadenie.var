@@ -1,0 +1,23 @@
+VAR
+	analog_vstup_3 : INT;
+	PID_P : REAL := 0;
+	PID_N : REAL := 0;
+	PID_I : REAL := 70;
+	PID_D : REAL := 0;
+	pozadovany_uhol_x : REAL;
+	pozadovany_uhol_y : REAL;
+	real_uhol_x : REAL;
+	real_uhol_x_int : INT;
+	real_uhol_x_kalibrovane : REAL;
+	real_uhol_y : REAL;
+	real_uhol_y_int : INT;
+	real_uhol_y_kalibrovane : REAL;
+	tlak1 : REAL;
+	tlak2 : REAL;
+	tlak3 : REAL;
+	reset_I_reg : BOOL;
+	Vin_x : REAL;
+	Vin_y : REAL;
+	x_naklopenie_cerveny : INT;
+	y_naklopenie_zeleny : INT;
+END_VAR

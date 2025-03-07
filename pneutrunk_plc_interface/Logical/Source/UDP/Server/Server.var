@@ -1,0 +1,15 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Server
+ * File: Server.var
+ * Author: Bernecker + Rainer
+ * Created: June 02, 2008
+ ********************************************************************
+ * Local variables of program Server
+ ********************************************************************)
+VAR
+	Server : Server_typ := (0); (*Data for Server Task*)
+	i : INT;
+	switch : BOOL;
+END_VAR

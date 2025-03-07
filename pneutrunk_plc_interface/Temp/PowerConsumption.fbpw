@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Minimum calculated safety runtime." Type="fbpw">
+    <Group ID="Row[0]">
+      <Property ID="Position" Value="$root" />
+      <Property ID="Module" Value="X20CP1684" />
+      <Property ID="BusGroup" Value="" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="" />
+      <Property ID="IOGroup" Value="1" />
+      <Property ID="PSgeneral" Value="240.00" />
+      <Property ID="PCgeneral" Value="0.10" />
+      <Property ID="IOPowerEx" Value="1.54" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[1]">
+      <Property ID="Position" Value="" />
+      <Property ID="Module" Value="" />
+      <Property ID="BusGroup" Value="∑" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.00" />
+      <Property ID="IOGroup" Value="" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[2]">
+      <Property ID="Position" Value="$root" />
+      <Property ID="Module" Value="X20CP1684" />
+      <Property ID="BusGroup" Value="1" />
+      <Property ID="PSadditional" Value="7.00" />
+      <Property ID="PCadditional" Value="" />
+      <Property ID="IOGroup" Value="1" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="13.05" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[3]">
+      <Property ID="Position" Value="IF6.ST1.BM" />
+      <Property ID="Module" Value="X20BM11g" />
+      <Property ID="BusGroup" Value="1" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.13" />
+      <Property ID="IOGroup" Value="1" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[4]">
+      <Property ID="Position" Value="IF6.ST1" />
+      <Property ID="Module" Value="X20CS1030" />
+      <Property ID="BusGroup" Value="1" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.01" />
+      <Property ID="IOGroup" Value="1" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="1.44" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[5]">
+      <Property ID="Position" Value="" />
+      <Property ID="Module" Value="" />
+      <Property ID="BusGroup" Value="∑" />
+      <Property ID="PSadditional" Value="7.00" />
+      <Property ID="PCadditional" Value="0.14" />
+      <Property ID="IOGroup" Value="∑" />
+      <Property ID="PSgeneral" Value="240.00" />
+      <Property ID="PCgeneral" Value="1.54" />
+      <Property ID="IOPowerEx" Value="" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[6]">
+      <Property ID="Position" Value="" />
+      <Property ID="Module" Value="" />
+      <Property ID="BusGroup" Value="" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="" />
+      <Property ID="IOGroup" Value="" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[7]">
+      <Property ID="Position" Value="" />
+      <Property ID="Module" Value="" />
+      <Property ID="BusGroup" Value="" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="" />
+      <Property ID="IOGroup" Value="" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[8]">
+      <Property ID="Position" Value="IF3.ST1" />
+      <Property ID="Module" Value="X20BB80" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.25" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="4.42" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[9]">
+      <Property ID="Position" Value="IF3.ST1" />
+      <Property ID="Module" Value="X20BC0083" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="2.00" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[10]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST1" />
+      <Property ID="Module" Value="X20PS9402" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="7.00" />
+      <Property ID="PCadditional" Value="" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="240.00" />
+      <Property ID="PCgeneral" Value="0.16" />
+      <Property ID="IOPowerEx" Value="84.61" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[11]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST2.BM" />
+      <Property ID="Module" Value="X20BM11" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.13" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[12]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST2" />
+      <Property ID="Module" Value="X20AO4622" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.01" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="1.80" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[13]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST3.BM" />
+      <Property ID="Module" Value="X20BM11a" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.13" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[14]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST3" />
+      <Property ID="Module" Value="X20AO4622a" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.01" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="1.80" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[15]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST4.BM" />
+      <Property ID="Module" Value="X20BM11b" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.13" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[16]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST4" />
+      <Property ID="Module" Value="X20AO4622b" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.01" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="1.80" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[17]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST5.BM" />
+      <Property ID="Module" Value="X20BM11c" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.13" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[18]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST5" />
+      <Property ID="Module" Value="X20AO4622c" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.01" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="1.80" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[19]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST6.BM" />
+      <Property ID="Module" Value="X20BM11d" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.13" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[20]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST6" />
+      <Property ID="Module" Value="X20CM8281" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.01" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="25.75" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[21]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST7.BM" />
+      <Property ID="Module" Value="X20BM11e" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.13" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[22]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST7" />
+      <Property ID="Module" Value="X20CM8281a" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.01" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="25.75" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[23]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST8.BM" />
+      <Property ID="Module" Value="X20BM11f" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.13" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+    <Group ID="Row[24]">
+      <Property ID="Position" Value="IF3.ST1.IF1.ST8" />
+      <Property ID="Module" Value="X20CM8281b" />
+      <Property ID="BusGroup" Value="2" />
+      <Property ID="PSadditional" Value="" />
+      <Property ID="PCadditional" Value="0.01" />
+      <Property ID="IOGroup" Value="2" />
+      <Property ID="PSgeneral" Value="" />
+      <Property ID="PCgeneral" Value="25.75" />
+      <Property ID="IOPowerEx" Value="0.00" />
+      <Property ID="RowColor" Value="White" />
+    </Group>
+    <Group ID="Row[25]">
+      <Property ID="Position" Value="" />
+      <Property ID="Module" Value="" />
+      <Property ID="BusGroup" Value="∑" />
+      <Property ID="PSadditional" Value="7.00" />
+      <Property ID="PCadditional" Value="3.23" />
+      <Property ID="IOGroup" Value="∑" />
+      <Property ID="PSgeneral" Value="240.00" />
+      <Property ID="PCgeneral" Value="84.61" />
+      <Property ID="IOPowerEx" Value="" />
+      <Property ID="RowColor" Value="LightGray" />
+    </Group>
+  </Element>
+</Configuration>

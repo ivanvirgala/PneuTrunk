@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Source/Controller/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/regulatory/regulatory.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/regulatory/regulatory.fun
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Source/Controller/Types.typ

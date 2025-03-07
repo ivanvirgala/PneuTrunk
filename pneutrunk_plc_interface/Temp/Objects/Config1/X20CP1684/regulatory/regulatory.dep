@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/regulatory/regulatory.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/regulatory/regulatory.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun

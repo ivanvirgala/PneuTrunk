@@ -1,0 +1,82 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Receiver 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                Receiver                             Receiver_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                    step                                     DINT    0 "                                                               2"    1    4    1   10    0    0 e,0,FRM_
+
+                                Commands                              command_typ    0 "                                                               *"    1   24    1    0    0    0         
+                            open_receive                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   close                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            receive_data                               STRING[80]    0 "                                                              ''"    1    9   81    1    0    0         
+                             FRM_xopen_0                                FRM_xopen    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  device                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                    mode                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  config                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                internal                               STRING[27]    0 "                                                               *"    2    9   28    1    0    0         
+                             xopenConfig                              XOPENCONFIG    0 "                                                               *"    1   24    1    0    0    0         
+                                    idle                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  delimc                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   delim                              USINT[0..1]    0 "                                                               *"    2    5    2    0    0    0         
+                                delim[0]                                    USINT    0 "                                                               *"    3    5    1   10    0    0         
+                                delim[1]                                    USINT    0 "                                                               *"    3    5    1   10    0    0         
+                                  tx_cnt                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  rx_cnt                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  tx_len                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  rx_len                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                    argc                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                    argv                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                              FRM_read_0                                 FRM_read    0 "                                                               *"    1   24    1    0    0    1         
+                                  enable                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               1"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                              60"    2    6    1   10    0    0         
+                                  buffer                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                  buflng                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                internal                               STRING[27]    0 "                                                              ''"    2    9   28    1    0    0         
+                              FRM_rbuf_0                                 FRM_rbuf    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  buffer                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  buflng                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                internal                               STRING[27]    0 "                                                               *"    2    9   28    1    0    0         
+                             FRM_close_0                                FRM_close    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                internal                               STRING[27]    0 "                                                               *"    2    9   28    1    0    0         
+                               packet485                              packetRS485    0 "                                                               *"    0   24    1    0    0    0         
+                                  packet                               BYTE[0..9]    0 "                                                               *"    1   17   10    0    0    0        b
+                               packet[0]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[1]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[2]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[3]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[4]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[5]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[6]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[7]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[8]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                               packet[9]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           sendPacketLED                               BYTE[0..5]    0 "                                                               *"    1   17    6    0    0    0        b
+                        sendPacketLED[0]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                        sendPacketLED[1]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                        sendPacketLED[2]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                        sendPacketLED[3]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                        sendPacketLED[4]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                        sendPacketLED[5]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                       sendPacketSnimace                               BYTE[0..5]    0 "                                                               *"    1   17    6    0    0    0        b
+                    sendPacketSnimace[0]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                    sendPacketSnimace[1]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                    sendPacketSnimace[2]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                    sendPacketSnimace[3]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                    sendPacketSnimace[4]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                    sendPacketSnimace[5]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         sendPacketFinal                               BYTE[0..5]    0 "                                                               *"    1   17    6    0    0    0        b
+                      sendPacketFinal[0]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                      sendPacketFinal[1]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                      sendPacketFinal[2]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                      sendPacketFinal[3]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                      sendPacketFinal[4]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                      sendPacketFinal[5]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b

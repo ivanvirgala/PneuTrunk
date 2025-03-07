@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<Objects>
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133858180609051772" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133858187736470561"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133858184095623239"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133858180651463205" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133858176672513144" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133858176672513144"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133858176672513144"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133858176672523164"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133858176672623635" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133858176672623635"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133858176672623635"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133858176672633648"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133858176672472909" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133858176672472909"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133858176672472909"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133858176672472909"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133858176672412346" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133858176672392305"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133858176672402326"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133858176672402326"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsUDP\binary.lby"
+    LogicalPath="Libraries.AsUDP"
+    Type="Library"
+    LastWriteTime="133858176672442857" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsUDP\AsUDP.fun"
+    LogicalPath="Libraries.AsUDP.AsUDP.fun"
+    Type="File"
+    LastWriteTime="133858176672422357"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsUDP\AsUDP.typ"
+    LogicalPath="Libraries.AsUDP.AsUDP.typ"
+    Type="File"
+    LastWriteTime="133858176672432815"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsUDP\AsUDP.var"
+    LogicalPath="Libraries.AsUDP.AsUDP.var"
+    Type="File"
+    LastWriteTime="133858176672432815"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\asstring\binary.lby"
+    LogicalPath="Libraries.asstring"
+    Type="Library"
+    LastWriteTime="133858176672462890" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\asstring\asstring.fun"
+    LogicalPath="Libraries.asstring.asstring.fun"
+    Type="File"
+    LastWriteTime="133858176672452873"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\asstring\asstring.typ"
+    LogicalPath="Libraries.asstring.asstring.typ"
+    Type="File"
+    LastWriteTime="133858176672452873"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\asstring\asstring.var"
+    LogicalPath="Libraries.asstring.asstring.var"
+    Type="File"
+    LastWriteTime="133858176672462890"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133858176672643705" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133858176672643705"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133858176672643705"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133858176672643705"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\sys_lib\binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="133858176672653725" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="133858176672663757"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="133858176672663757"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="133858176672663757"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\brsystem\binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="133858176672483147" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="133858176672483147"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\brsystem\brsystem.typ"
+    LogicalPath="Libraries.brsystem.brsystem.typ"
+    Type="File"
+    LastWriteTime="133858176672493146"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="133858176672493146"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\dvframe\binary.lby"
+    LogicalPath="Libraries.dvframe"
+    Type="Library"
+    LastWriteTime="133858176672503144" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\dvframe\dvframe.fun"
+    LogicalPath="Libraries.dvframe.dvframe.fun"
+    Type="File"
+    LastWriteTime="133858176672503144"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\dvframe\dvframe.typ"
+    LogicalPath="Libraries.dvframe.dvframe.typ"
+    Type="File"
+    LastWriteTime="133858176672503144"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\dvframe\dvframe.var"
+    LogicalPath="Libraries.dvframe.dvframe.var"
+    Type="File"
+    LastWriteTime="133858176672503144"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsArLog\binary.lby"
+    LogicalPath="Libraries.AsArLog"
+    Type="Library"
+    LastWriteTime="133858176672392305" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsArLog\AsArLog.fun"
+    LogicalPath="Libraries.AsArLog.AsArLog.fun"
+    Type="File"
+    LastWriteTime="133858176672379493"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsArLog\AsArLog.typ"
+    LogicalPath="Libraries.AsArLog.AsArLog.typ"
+    Type="File"
+    LastWriteTime="133858176672379493"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsArLog\AsArLog.var"
+    LogicalPath="Libraries.AsArLog.AsArLog.var"
+    Type="File"
+    LastWriteTime="133858176672379493"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsTCP\binary.lby"
+    LogicalPath="Libraries.AsTCP"
+    Type="Library"
+    LastWriteTime="133858176672422357" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsTCP\AsTCP.fun"
+    LogicalPath="Libraries.AsTCP.AsTCP.fun"
+    Type="File"
+    LastWriteTime="133858176672412346"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsTCP\AsTCP.typ"
+    LogicalPath="Libraries.AsTCP.AsTCP.typ"
+    Type="File"
+    LastWriteTime="133858176672412346"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Libraries\AsTCP\AsTCP.var"
+    LogicalPath="Libraries.AsTCP.AsTCP.var"
+    Type="File"
+    LastWriteTime="133858176672412346"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Package.pkg"
+    LogicalPath="Source"
+    Type="Package"
+    LastWriteTime="133858184510633550" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Package.pkg"
+    LogicalPath="Source.UDP"
+    Type="Package"
+    LastWriteTime="133858176674383686" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\LibAsUDP1_ST.typ"
+    LogicalPath="Source.UDP.LibAsUDP1_ST.typ"
+    Type="File"
+    LastWriteTime="133858176674383686"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\LibAsUDP1_ST.var"
+    LogicalPath="Source.UDP.LibAsUDP1_ST.var"
+    Type="File"
+    LastWriteTime="133858176674383686"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Server\IEC.prg"
+    LogicalPath="Source.UDP.Server"
+    Type="Program"
+    LastWriteTime="133858176674393709" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Server\Server.st"
+    LogicalPath="Source.UDP.Server.Server.st"
+    Type="File"
+    LastWriteTime="133858185752933968"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Server\Server.typ"
+    LogicalPath="Source.UDP.Server.Server.typ"
+    Type="File"
+    LastWriteTime="133858176674393709"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Server\Server.var"
+    LogicalPath="Source.UDP.Server.Server.var"
+    Type="File"
+    LastWriteTime="133858176674393709"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Client\IEC.prg"
+    LogicalPath="Source.UDP.Client"
+    Type="Program"
+    LastWriteTime="133858176674383686" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Client\Client.st"
+    LogicalPath="Source.UDP.Client.Client.st"
+    Type="File"
+    LastWriteTime="133858205018209641"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Client\Client.typ"
+    LogicalPath="Source.UDP.Client.Client.typ"
+    Type="File"
+    LastWriteTime="133858176674373620"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\UDP\Client\Client.var"
+    LogicalPath="Source.UDP.Client.Client.var"
+    Type="File"
+    LastWriteTime="133858176674383686"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Package.pkg"
+    LogicalPath="Source.RS485"
+    Type="Package"
+    LastWriteTime="133858181420872007" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Sender\IEC.prg"
+    LogicalPath="Source.RS485.Sender"
+    Type="Program"
+    LastWriteTime="133858181420850982" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Sender\SenderCyclic.st"
+    LogicalPath="Source.RS485.Sender.SenderCyclic.st"
+    Type="File"
+    LastWriteTime="133858181420826699"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Sender\Sender.typ"
+    LogicalPath="Source.RS485.Sender.Sender.typ"
+    Type="File"
+    LastWriteTime="133858181420838522"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Sender\Sender.var"
+    LogicalPath="Source.RS485.Sender.Sender.var"
+    Type="File"
+    LastWriteTime="133858181420838522"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Receiver\IEC.prg"
+    LogicalPath="Source.RS485.Receiver"
+    Type="Program"
+    LastWriteTime="133858181420872007" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Receiver\ReceiverCyclic.st"
+    LogicalPath="Source.RS485.Receiver.ReceiverCyclic.st"
+    Type="File"
+    LastWriteTime="133858194504432989"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Receiver\Receiver.typ"
+    LogicalPath="Source.RS485.Receiver.Receiver.typ"
+    Type="File"
+    LastWriteTime="133858181420861743"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\RS485\Receiver\Receiver.var"
+    LogicalPath="Source.RS485.Receiver.Receiver.var"
+    Type="File"
+    LastWriteTime="133858181420872007"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\riadenie.var"
+    LogicalPath="Source.riadenie.var"
+    Type="File"
+    LastWriteTime="133858176674393709"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Narazy\IEC.prg"
+    LogicalPath="Source.Narazy"
+    Type="Program"
+    LastWriteTime="133858176674323530" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Narazy\Cyclic.st"
+    LogicalPath="Source.Narazy.Cyclic.st"
+    Type="File"
+    LastWriteTime="133858176674323530"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Narazy\Init.st"
+    LogicalPath="Source.Narazy.Init.st"
+    Type="File"
+    LastWriteTime="133858176674333529"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Narazy\Exit.st"
+    LogicalPath="Source.Narazy.Exit.st"
+    Type="File"
+    LastWriteTime="133858176674323530"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Narazy\Types.typ"
+    LogicalPath="Source.Narazy.Types.typ"
+    Type="File"
+    LastWriteTime="133858176674333529"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Narazy\Variables.var"
+    LogicalPath="Source.Narazy.Variables.var"
+    Type="File"
+    LastWriteTime="133858176674333529"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Sensors\IEC.prg"
+    LogicalPath="Source.Sensors"
+    Type="Program"
+    LastWriteTime="133858182973382421" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Sensors\Cyclic.st"
+    LogicalPath="Source.Sensors.Cyclic.st"
+    Type="File"
+    LastWriteTime="133858193426265750"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Sensors\Init.st"
+    LogicalPath="Source.Sensors.Init.st"
+    Type="File"
+    LastWriteTime="133858182973359393"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Sensors\Exit.st"
+    LogicalPath="Source.Sensors.Exit.st"
+    Type="File"
+    LastWriteTime="133858182973359393"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Sensors\Types.typ"
+    LogicalPath="Source.Sensors.Types.typ"
+    Type="File"
+    LastWriteTime="133858182973372176"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Logical\Source\Sensors\Variables.var"
+    LogicalPath="Source.Sensors.Variables.var"
+    Type="File"
+    LastWriteTime="133858182973372176"
+    Private="true" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133858176674587799" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133858176674587799"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133858176674587799"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\Cpu.pkg"
+    LogicalPath="Config1.X20CP1684"
+    Type="Cpu"
+    LastWriteTime="133858176674653225" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\Cpu.sw"
+    LogicalPath="Config1.X20CP1684.Cpu.sw"
+    Type="File"
+    LastWriteTime="133858184797055413"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\Cpu.per"
+    LogicalPath="Config1.X20CP1684.Cpu.per"
+    Type="File"
+    LastWriteTime="133858176674653225"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\IoMap.iom"
+    LogicalPath="Config1.X20CP1684.IoMap.iom"
+    Type="File"
+    LastWriteTime="133858186587136646"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\PvMap.vvm"
+    LogicalPath="Config1.X20CP1684.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133858176674663233"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP1684.Connectivity"
+    Type="Package"
+    LastWriteTime="133858176674653225" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP1684.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133858176674653225" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1684.TextSystem"
+    Type="Package"
+    LastWriteTime="133858176674663233" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1684.UnitSystem"
+    Type="Package"
+    LastWriteTime="133858176674663233" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133858176674643210" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133858176674643210" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133858176674643210"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133858176674653225"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133858176674623169" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133858176674623169" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133858176674623169" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133858176674623169" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133858176674633192" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133858176674633192" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133858176674612619" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133858176674612619" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133858176674643210" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133858176674633192" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP1684.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133858176674643210"
+    Private="false" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappControl\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappControl"
+    Type="Package"
+    LastWriteTime="133858176674673252" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappMotion"
+    Type="Package"
+    LastWriteTime="133858176674673252" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappServices\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappServices"
+    Type="Package"
+    LastWriteTime="133858176674683280" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappSafety\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappSafety"
+    Type="Package"
+    LastWriteTime="133858176674673252" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappSafety\SafeApplication\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappSafety.SafeApplication"
+    Type="Package"
+    LastWriteTime="133858176674683280" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappSafety\SafeCommissioning\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappSafety.SafeCommissioning"
+    Type="Package"
+    LastWriteTime="133858176674683280" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappView"
+    Type="Package"
+    LastWriteTime="133858176674683280" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappVision\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappVision"
+    Type="Package"
+    LastWriteTime="133858176674693354" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\X20CP1684\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP1684.mappCockpit"
+    Type="Package"
+    LastWriteTime="133858176674673252" />
+  <Object
+    Path="C:\PneuTrunk\pneutrunk_plc_experiments\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133858176674602600"
+    Private="false" />
+</Objects>

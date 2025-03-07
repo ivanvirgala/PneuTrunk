@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles xmlns="" ConfigurationName="Config1" ActiveConfigurationFile="\Logical\Source\UDP\Server\Server.st"><ConfigurationFile Placement="\Logical\Source\Sensors\Cyclic.st,Source.Sensors,2,44,0,1,-1,-1,-1,-1,2,34,3141,1554"/><ConfigurationFile Placement="\Logical\Source\UDP\Client\Client.st,Source.UDP.Client,2,44,0,1,-1,-1,-1,-1,2,34,3141,1554"/><ConfigurationFile Placement="\Logical\Source\UDP\Server\Server.st,Source.UDP.Server,2,44,0,1,-1,-1,-1,-1,2,34,3141,1554"/></ConfigurationFiles></Project>
