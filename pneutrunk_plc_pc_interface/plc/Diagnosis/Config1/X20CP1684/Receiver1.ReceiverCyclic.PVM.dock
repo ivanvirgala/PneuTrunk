@@ -1,0 +1,147 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Receiver1 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=135 Type=0 Scope=0 Force=0 Index=66 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                Receiver                             Receiver_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                    step                                     DINT    0 "                                                               2"    1    4    1   10    0    0 e,0,FRM_
+
+                                Commands                              command_typ    0 "                                                               *"    1   24    1    0    0    1         
+                            open_receive                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                                   close                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                            receive_data                              BYTE[0..10]    0 "                                                               *"    1   17   11    0    0    1        b
+                         receive_data[0]                                     BYTE    0 "                                                             255"    2   17    1   10    0    0        b
+                         receive_data[1]                                     BYTE    0 "                                                             255"    2   17    1   10    0    0        b
+                         receive_data[2]                                     BYTE    0 "                                                               4"    2   17    1   10    0    0        b
+                         receive_data[3]                                     BYTE    0 "                                                               1"    2   17    1   10    0    0        b
+                         receive_data[4]                                     BYTE    0 "                                                               2"    2   17    1   10    0    0        b
+                         receive_data[5]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                         receive_data[6]                                     BYTE    0 "                                                             169"    2   17    1   10    0    0        b
+                         receive_data[7]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                         receive_data[8]                                     BYTE    0 "                                                             159"    2   17    1   10    0    0        b
+                         receive_data[9]                                     BYTE    0 "                                                             254"    2   17    1   10    0    0        b
+                        receive_data[10]                                     BYTE    0 "                                                             254"    2   17    1   10    0    0        b
+                             FRM_xopen_0                                FRM_xopen    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  device                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                    mode                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  config                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                internal                               STRING[27]    0 "                                                               *"    2    9   28    1    0    0         
+                             xopenConfig                              XOPENCONFIG    0 "                                                               *"    1   24    1    0    0    0         
+                                    idle                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  delimc                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   delim                              USINT[0..1]    0 "                                                               *"    2    5    2    0    0    0         
+                                delim[0]                                    USINT    0 "                                                               *"    3    5    1   10    0    0         
+                                delim[1]                                    USINT    0 "                                                               *"    3    5    1   10    0    0         
+                                  tx_cnt                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  rx_cnt                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  tx_len                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  rx_len                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                    argc                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                    argv                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                              FRM_read_0                                 FRM_read    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  buffer                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  buflng                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                internal                               STRING[27]    0 "                                                               *"    2    9   28    1    0    0         
+                              FRM_rbuf_0                                 FRM_rbuf    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  buffer                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  buflng                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                internal                               STRING[27]    0 "                                                               *"    2    9   28    1    0    0         
+                             FRM_close_0                                FRM_close    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                internal                               STRING[27]    0 "                                                               *"    2    9   28    1    0    0         
+                                   modul                                   moduly    0 "                                                               *"    0   24    1    0    0    1         
+                                   uhol2                               REAL[0..6]    0 "                                                               *"    1    8    7    0    0    1         
+                                uhol2[0]                                     REAL    0 "                                                    -0.453706235"    2    8    1   10    0    0         
+                                uhol2[1]                                     REAL    0 "                                                        0.559675"    2    8    1   10    0    0         
+                                uhol2[2]                                     REAL    0 "                                                     -1.00694978"    2    8    1   10    0    0         
+                                uhol2[3]                                     REAL    0 "                                                     -1.65047681"    2    8    1   10    0    0         
+                                uhol2[4]                                     REAL    0 "                                                       0.8819975"    2    8    1   10    0    0         
+                                uhol2[5]                                     REAL    0 "                                                     -1.59943736"    2    8    1   10    0    0         
+                                uhol2[6]                                     REAL    0 "                                                     -1.63478684"    2    8    1   10    0    0         
+                                   uhol1                               REAL[0..6]    0 "                                                               *"    1    8    7    0    0    1         
+                                uhol1[0]                                     REAL    0 "                                                        4.822407"    2    8    1   10    0    0         
+                                uhol1[1]                                     REAL    0 "                                                      2.91185641"    2    8    1   10    0    0         
+                                uhol1[2]                                     REAL    0 "                                                       -1.234054"    2    8    1   10    0    0         
+                                uhol1[3]                                     REAL    0 "                                                    -0.994930267"    2    8    1   10    0    0         
+                                uhol1[4]                                     REAL    0 "                                                    -0.486716419"    2    8    1   10    0    0         
+                                uhol1[5]                                     REAL    0 "                                                        2.648365"    2    8    1   10    0    0         
+                                uhol1[6]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                  koncak                               BOOL[0..6]    0 "                                                               *"    1    1    7    0    0    0         
+                               koncak[0]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               koncak[1]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               koncak[2]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               koncak[3]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               koncak[4]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               koncak[5]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               koncak[6]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                     led                               BOOL[0..6]    0 "                                                               *"    1    1    7    0    0    0         
+                                  led[0]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  led[1]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  led[2]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  led[3]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  led[4]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  led[5]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                  led[6]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                uholINT2                                      INT    0 "                                                               *"    1    3    1   10    0    0         
+                                uholINT1                                      INT    0 "                                                               *"    1    3    1   10    0    0         
+                                   tlak1                                INT[0..6]    0 "                                                               *"    1    3    7    0    0    0         
+                                tlak1[0]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak1[1]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak1[2]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak1[3]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak1[4]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak1[5]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak1[6]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                   tlak2                                INT[0..6]    0 "                                                               *"    1    3    7    0    0    0         
+                                tlak2[0]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak2[1]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak2[2]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak2[3]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak2[4]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak2[5]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak2[6]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                   tlak3                                INT[0..6]    0 "                                                               *"    1    3    7    0    0    0         
+                                tlak3[0]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak3[1]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak3[2]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak3[3]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak3[4]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak3[5]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                tlak3[6]                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                              tlakLinear                                      INT    0 "                                                               *"    1    3    1   10    0    0         
+                          uhol_XminusRef                               REAL[0..6]    0 "                                                               *"    1    8    7    0    0    0         
+                       uhol_XminusRef[0]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_XminusRef[1]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_XminusRef[2]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_XminusRef[3]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_XminusRef[4]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_XminusRef[5]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_XminusRef[6]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                          uhol_YminusRef                               REAL[0..6]    0 "                                                               *"    1    8    7    0    0    0         
+                       uhol_YminusRef[0]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_YminusRef[1]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_YminusRef[2]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_YminusRef[3]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_YminusRef[4]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_YminusRef[5]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                       uhol_YminusRef[6]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                              linearReal                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                                   naraz                               BOOL[0..7]    0 "                                                               *"    1    1    8    0    0    1         
+                                naraz[0]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                naraz[1]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                naraz[2]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                naraz[3]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                naraz[4]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                naraz[5]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                naraz[6]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                naraz[7]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            narazAktivny                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         

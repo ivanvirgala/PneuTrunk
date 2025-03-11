@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles xmlns="" ConfigurationName="Config1" ActiveConfigurationFile="\Logical\Source\UDP\Client\Client.var"><ConfigurationFile Placement=",,1,44,0,1,-1,-1,-1,-1,78,78,1321,610"/><ConfigurationFile Placement="\Logical\Source\RS485\Receiver\ReceiverCyclic.st,Source.RS485.Receiver,2,44,0,1,-1,-1,-1,-1,2,24,1501,790"/><ConfigurationFile Placement="\Logical\Source\UDP\Client\Client.st,Source.UDP.Client,2,44,0,1,-1,-1,-1,-1,2,24,1501,790"/><ConfigurationFile Placement="\Logical\Source\UDP\Client\Client.var,Source.UDP.Client,1,44,0,1,-1,-1,-1,-1,2,24,1501,790"/></ConfigurationFiles></Project>
