@@ -59,8 +59,17 @@ PROGRAM _CYCLIC
 			Server.UdpSend_0.flags := 0;
 			Server.UdpSend_0;	// Call the Function
 			
-			
-			
+			packetPos.p			:= FIND(Server.data_buffer,'pressures:');
+			packetPos.end		:= FIND(Server.data_buffer, 'end');
+			packetPos.pLength	:= UDINT_TO_INT(Server.UdpSend_0.datalen) - (packetPos.p + 11);
+			packetPos.pFull		:= MID(Server.data_buffer, packetPos.end - (packetPos.p+10), (packetPos.p+10));	
+			FOR i:=0 TO 22 BY 1 DO
+				packetPos.comma			:= FIND(packetPos.pFull, ',');
+				packetPos.pString[i]	:= MID(packetPos.pFull, packetPos.comma, 0);
+				packetPos.pFull			:= DELETE(packetPos.pFull, packetPos.comma+1, 0);
+				packetPos.pDesired[i]	:= DINT_TO_INT(atoi(ADR(packetPos.pString[i]))); 	
+			END_FOR
+	
 			(*
 			Server.UdpSend_0.enable := 1;
 			Server.UdpSend_0.ident := Server.UdpOpen_0.ident;	// Client Ident from AsUDP.UDP_Open 

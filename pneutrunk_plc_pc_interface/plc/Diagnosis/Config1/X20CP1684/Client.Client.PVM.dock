@@ -1,7 +1,7 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Client 
 Position X=0 Y=0 Width=0 Height=0 TabWidth Name=138 Type=83 Scope=70 Force=83 Index=106 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                              helpString                                STRING[4]    0 "                                                         '-1.63'"    0    9    5    1    1    0         
+                              helpString                                STRING[4]    0 "                                                         '-5.02'"    0    9    5    1    1    0         
                             LibAsUDP1_ST                         LibAsUDP1_ST_typ    0 "                                                               *"    0   24    1    0    0    1         
                             receive_data                            UDINT[0..100]    0 "                                                               *"    1    7  101    0    0    0         
                          receive_data[0]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
@@ -105,21 +105,21 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=138 Type=83 Scope=70 Force=83 In
                         receive_data[98]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
                         receive_data[99]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
                        receive_data[100]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
-                               send_data                              STRING[512]    0 "'angles:4.82241,-0.453706,2.91186,0.559675,-1.23405,-1.00695,-0.99493,-1.65048,-0.486"    1    9  513    1    0    0         
+                               send_data                              STRING[512]    0 "'angles:-1.41333,13.6343,1.61338,18.2176,-0.974181,-1.00695,0.306847,4.63096,0.810237"    1    9  513    1    0    0         
                                   Client                               Client_typ    0 "                                                               *"    0   24    1    0    1    1         
                                    sStep                                     UINT    0 "                                                               2"    1    6    1   10    0    0         
                           server_address                               STRING[20]    0 "                                                  '192.168.1.47'"    1    9   21    1    0    0         
                        server_portnumber                                     UINT    0 "                                                           12050"    1    6    1   10    0    0         
-                  no_data_received_count                                     UINT    0 "                                                               5"    1    6    1   10    0    0         
+                  no_data_received_count                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
                                UdpOpen_0                                  UdpOpen    0 "                                                               *"    1   24    1    0    0    1         
                                   enable                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
                                  pIfAddr                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
                                     port                                     UINT    0 "                                                           12051"    2    6    1   10    0    0         
                                  options                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
-                                  status                                     UINT    0 "                                                           32502"    2    6    1   10    0    0         
+                                  status                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
                                    ident                                    UDINT    0 "                                                               1"    2    7    1   10    0    0         
                                  i_state                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
-                                i_result                                     UINT    0 "                                                           32502"    2    6    1   10    0    0         
+                                i_result                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
                                    i_tmp                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
                             UdpConnect_0                               UdpConnect    0 "                                                               *"    1   24    1    0    0    1         
                                   enable                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
@@ -133,13 +133,13 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=138 Type=83 Scope=70 Force=83 In
                                UdpSend_0                                  UdpSend    0 "                                                               *"    1   24    1    0    0    1         
                                   enable                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
                                    ident                                    UDINT    0 "                                                               1"    2    7    1   10    0    0         
-                                   pHost                                    UDINT    0 "                                                       132460642"    2    7    1   10    0    0         
+                                   pHost                                    UDINT    0 "                                                       151771730"    2    7    1   10    0    0         
                                     port                                     UINT    0 "                                                           12050"    2    6    1   10    0    0         
-                                   pData                                    UDINT    0 "                                                       142275548"    2    7    1   10    0    0         
+                                   pData                                    UDINT    0 "                                                       142129724"    2    7    1   10    0    0         
                                  datalen                                    UDINT    0 "                                                             513"    2    7    1   10    0    0         
-                                   flags                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
-                                  status                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
-                                 sentlen                                    UDINT    0 "                                                             513"    2    7    1   10    0    0         
+                                   flags                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                 sentlen                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
                                  i_state                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
                                 i_result                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
                                    i_tmp                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         

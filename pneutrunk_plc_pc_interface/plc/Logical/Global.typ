@@ -61,12 +61,18 @@ TYPE
 		qLength : INT;
 		c : INT;
 		q : INT;
+		pFull : STRING[512];
 		qFull : STRING[80];
 		comma : INT;
+		pString : ARRAY[0..21]OF STRING[6];
 		qString : ARRAY[0..14]OF STRING[6];
 		qDesired : ARRAY[0..14]OF REAL;
 		color : INT;
 		step : INT;
+		pLength : INT;
+		p : INT;
+		end : INT;
+		pDesired : ARRAY[0..21]OF INT;
 	END_STRUCT;
 	tlaky : 	STRUCT 
 		tlak3 : USINT;

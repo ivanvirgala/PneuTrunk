@@ -318,19 +318,19 @@
 <Prod Device="IF3.ST1.IF1.ST2" DPName="FirmwareVersion" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST2.AnalogOutput01" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak1[0]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[0]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST2" DPName="AnalogOutput01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST2.AnalogOutput02" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak2[0]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[1]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST2" DPName="AnalogOutput02" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST2.AnalogOutput03" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak3[0]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[2]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST2" DPName="AnalogOutput03" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST2.AnalogOutput04" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak1[1]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[3]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST2" DPName="AnalogOutput04" Kind="io"/>
 </LN>
 <LN ID="%IW.IF3.ST1.IF1.ST2.BusModuleId" Type="UINT">
@@ -388,19 +388,19 @@
 <Prod Device="IF3.ST1.IF1.ST3" DPName="FirmwareVersion" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST3.AnalogOutput01" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak2[1]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[4]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST3" DPName="AnalogOutput01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST3.AnalogOutput02" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak3[1]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[5]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST3" DPName="AnalogOutput02" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST3.AnalogOutput03" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak1[2]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[6]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST3" DPName="AnalogOutput03" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST3.AnalogOutput04" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak2[2]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[7]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST3" DPName="AnalogOutput04" Kind="io"/>
 </LN>
 <LN ID="%IW.IF3.ST1.IF1.ST3.BusModuleId" Type="UINT">
@@ -458,19 +458,19 @@
 <Prod Device="IF3.ST1.IF1.ST4" DPName="FirmwareVersion" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST4.AnalogOutput01" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak3[2]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[8]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST4" DPName="AnalogOutput01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST4.AnalogOutput02" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak1[3]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[9]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST4" DPName="AnalogOutput02" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST4.AnalogOutput03" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak2[3]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[10]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST4" DPName="AnalogOutput03" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST4.AnalogOutput04" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak3[3]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[11]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST4" DPName="AnalogOutput04" Kind="io"/>
 </LN>
 <LN ID="%IW.IF3.ST1.IF1.ST4.BusModuleId" Type="UINT">
@@ -528,19 +528,19 @@
 <Prod Device="IF3.ST1.IF1.ST5" DPName="FirmwareVersion" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST5.AnalogOutput01" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak1[4]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[12]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST5" DPName="AnalogOutput01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST5.AnalogOutput02" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak2[4]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[13]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST5" DPName="AnalogOutput02" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST5.AnalogOutput03" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak3[4]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[14]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST5" DPName="AnalogOutput03" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST5.AnalogOutput04" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak1[5]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[15]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST5" DPName="AnalogOutput04" Kind="io"/>
 </LN>
 <LN ID="%IW.IF3.ST1.IF1.ST5.BusModuleId" Type="UINT">
@@ -640,7 +640,7 @@
 <Prod Device="IF3.ST1.IF1.ST6" DPName="AnalogInput01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST6.AnalogOutput01" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak2[5]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[16]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST6" DPName="AnalogOutput01" Kind="io"/>
 </LN>
 <LN ID="%IB.IF3.ST1.IF1.ST6.StatusInput01" Type="USINT">
@@ -743,7 +743,7 @@
 <Prod Device="IF3.ST1.IF1.ST7" DPName="AnalogInput01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST7.AnalogOutput01" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak3[5]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[17]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST7" DPName="AnalogOutput01" Kind="io"/>
 </LN>
 <LN ID="%IB.IF3.ST1.IF1.ST7.StatusInput01" Type="USINT">
@@ -846,7 +846,7 @@
 <Prod Device="IF3.ST1.IF1.ST8" DPName="AnalogInput01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST8.AnalogOutput01" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlakLinear" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[21]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST8" DPName="AnalogOutput01" Kind="io"/>
 </LN>
 <LN ID="%IB.IF3.ST1.IF1.ST8.StatusInput01" Type="USINT">
@@ -907,15 +907,15 @@
 <Prod Device="IF3.ST1.IF1.ST9" DPName="FirmwareVersion" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST9.AnalogOutput01" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak2[6]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[20]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST9" DPName="AnalogOutput01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST9.AnalogOutput02" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak3[6]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[18]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST9" DPName="AnalogOutput02" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST9.AnalogOutput03" Type="INT">
-<Prod Device="TC#2-CPYDEV" DPName="::modul.tlak1[6]" Kind="pv"/>
+<Prod Device="TC#5-CPYDEV" DPName="::packetPos.pDesired[19]" Kind="pv"/>
 <Cons Device="IF3.ST1.IF1.ST9" DPName="AnalogOutput03" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.IF1.ST9.AnalogOutput04" Type="INT">

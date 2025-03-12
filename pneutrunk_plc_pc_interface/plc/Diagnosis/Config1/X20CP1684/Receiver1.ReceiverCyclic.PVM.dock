@@ -10,11 +10,11 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=135 Type=0 Scope=0 Force=0 Index
                             receive_data                              BYTE[0..10]    0 "                                                               *"    1   17   11    0    0    1        b
                          receive_data[0]                                     BYTE    0 "                                                             255"    2   17    1   10    0    0        b
                          receive_data[1]                                     BYTE    0 "                                                             255"    2   17    1   10    0    0        b
-                         receive_data[2]                                     BYTE    0 "                                                               4"    2   17    1   10    0    0        b
+                         receive_data[2]                                     BYTE    0 "                                                               3"    2   17    1   10    0    0        b
                          receive_data[3]                                     BYTE    0 "                                                               1"    2   17    1   10    0    0        b
-                         receive_data[4]                                     BYTE    0 "                                                               2"    2   17    1   10    0    0        b
+                         receive_data[4]                                     BYTE    0 "                                                               3"    2   17    1   10    0    0        b
                          receive_data[5]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
-                         receive_data[6]                                     BYTE    0 "                                                             169"    2   17    1   10    0    0        b
+                         receive_data[6]                                     BYTE    0 "                                                             159"    2   17    1   10    0    0        b
                          receive_data[7]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
                          receive_data[8]                                     BYTE    0 "                                                             159"    2   17    1   10    0    0        b
                          receive_data[9]                                     BYTE    0 "                                                             254"    2   17    1   10    0    0        b
@@ -60,20 +60,20 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=135 Type=0 Scope=0 Force=0 Index
                                 internal                               STRING[27]    0 "                                                               *"    2    9   28    1    0    0         
                                    modul                                   moduly    0 "                                                               *"    0   24    1    0    0    1         
                                    uhol2                               REAL[0..6]    0 "                                                               *"    1    8    7    0    0    1         
-                                uhol2[0]                                     REAL    0 "                                                    -0.453706235"    2    8    1   10    0    0         
-                                uhol2[1]                                     REAL    0 "                                                        0.559675"    2    8    1   10    0    0         
+                                uhol2[0]                                     REAL    0 "                                                      13.6342821"    2    8    1   10    0    0         
+                                uhol2[1]                                     REAL    0 "                                                      18.2176113"    2    8    1   10    0    0         
                                 uhol2[2]                                     REAL    0 "                                                     -1.00694978"    2    8    1   10    0    0         
-                                uhol2[3]                                     REAL    0 "                                                     -1.65047681"    2    8    1   10    0    0         
-                                uhol2[4]                                     REAL    0 "                                                       0.8819975"    2    8    1   10    0    0         
-                                uhol2[5]                                     REAL    0 "                                                     -1.59943736"    2    8    1   10    0    0         
-                                uhol2[6]                                     REAL    0 "                                                     -1.63478684"    2    8    1   10    0    0         
+                                uhol2[3]                                     REAL    0 "                                                      4.63096046"    2    8    1   10    0    0         
+                                uhol2[4]                                     REAL    0 "                                                        10.86356"    2    8    1   10    0    0         
+                                uhol2[5]                                     REAL    0 "                                                        12.63211"    2    8    1   10    0    0         
+                                uhol2[6]                                     REAL    0 "                                                       -5.020728"    2    8    1   10    0    0         
                                    uhol1                               REAL[0..6]    0 "                                                               *"    1    8    7    0    0    1         
-                                uhol1[0]                                     REAL    0 "                                                        4.822407"    2    8    1   10    0    0         
-                                uhol1[1]                                     REAL    0 "                                                      2.91185641"    2    8    1   10    0    0         
-                                uhol1[2]                                     REAL    0 "                                                       -1.234054"    2    8    1   10    0    0         
-                                uhol1[3]                                     REAL    0 "                                                    -0.994930267"    2    8    1   10    0    0         
-                                uhol1[4]                                     REAL    0 "                                                    -0.486716419"    2    8    1   10    0    0         
-                                uhol1[5]                                     REAL    0 "                                                        2.648365"    2    8    1   10    0    0         
+                                uhol1[0]                                     REAL    0 "                                                     -1.41332793"    2    8    1   10    0    0         
+                                uhol1[1]                                     REAL    0 "                                                      1.61337984"    2    8    1   10    0    0         
+                                uhol1[2]                                     REAL    0 "                                                      -0.9741809"    2    8    1   10    0    0         
+                                uhol1[3]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                uhol1[4]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                uhol1[5]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
                                 uhol1[6]                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
                                   koncak                               BOOL[0..6]    0 "                                                               *"    1    1    7    0    0    0         
                                koncak[0]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         

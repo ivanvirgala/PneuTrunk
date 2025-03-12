@@ -9,15 +9,15 @@
       Source="Source.Narazy"
       Language="IEC">
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Narazy\Cyclic.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Narazy\Cyclic.st.var" />
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Narazy\Init.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Narazy\Init.st.var" />
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Narazy\Exit.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Narazy\Exit.st.var" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\Narazy\Types.typ" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\Narazy\Types.typ" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\Narazy\Variables.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\Narazy\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -28,11 +28,11 @@
       Source="Source.RS485.Sender"
       Language="IEC">
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Sender1\SenderCyclic.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Sender1\SenderCyclic.st.var" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\RS485\Sender\Sender.typ" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\RS485\Sender\Sender.typ" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\RS485\Sender\Sender.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\RS485\Sender\Sender.var" />
     </Task>
     <Task
       Name="Receiver1"
@@ -40,11 +40,11 @@
       Source="Source.RS485.Receiver"
       Language="IEC">
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Receiver1\ReceiverCyclic.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Receiver1\ReceiverCyclic.st.var" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\RS485\Receiver\Receiver.typ" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\RS485\Receiver\Receiver.typ" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\RS485\Receiver\Receiver.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\RS485\Receiver\Receiver.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -55,11 +55,11 @@
       Source="Source.UDP.Client"
       Language="IEC">
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Client\Client.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Client\Client.st.var" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\UDP\Client\Client.typ" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\UDP\Client\Client.typ" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\UDP\Client\Client.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\UDP\Client\Client.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -70,15 +70,15 @@
       Source="Source.Sensors"
       Language="IEC">
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Sensors\Cyclic.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Sensors\Cyclic.st.var" />
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Sensors\Init.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Sensors\Init.st.var" />
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Sensors\Exit.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Sensors\Exit.st.var" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\Sensors\Types.typ" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\Sensors\Types.typ" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\Sensors\Variables.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\Sensors\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -89,11 +89,11 @@
       Source="Source.UDP.Server"
       Language="IEC">
       <InternalFile
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Temp\Objects\Config1\X20CP1684\Server\Server.st.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Temp\Objects\Config1\X20CP1684\Server\Server.st.var" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\UDP\Server\Server.typ" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\UDP\Server\Server.typ" />
       <File
-        Path="C:\PneuTrunk\pneutrunk_plc_interface\Logical\Source\UDP\Server\Server.var" />
+        Path="C:\PneuTrunk\pneutrunk_plc_pc_interface\plc\Logical\Source\UDP\Server\Server.var" />
     </Task>
   </TaskClass>
   <TaskClass
